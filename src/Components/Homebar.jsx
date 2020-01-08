@@ -1,22 +1,49 @@
 import React, { Component } from "react";
-import Nav from 'react-bootstrap/Nav'
-import Image from 'react-bootstrap/Image'
-import logo from '../Images/Logo.png'
-import Navbar from 'react-bootstrap/Navbar'
+import Nav from "react-bootstrap/Nav";
+import logo from "../Images/Name_Logo.png";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
+
+import Image from "react-bootstrap/Image";
 
 export class Homebar extends Component {
   render() {
     return (
-      <Navbar variant="dark" fixed="top">
-        <Navbar.Brand href="/">
-          <Image className="logo" src={logo} fluid />
-        </Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="resumes">Resumes</Nav.Link>
-          <Nav.Link href="portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="contact">Contact</Nav.Link>
-        </Nav>
+      <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top">
+        <Link to="/">
+          <Navbar.Brand>
+            <Image className="name_logo" src={logo} fluid />
+          </Navbar.Brand>
+        </Link>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="links">
+            <Link to="/">About Me</Link>
+            <NavDropdown title="Portfolio">
+              <Link to="/">
+                <NavDropdown.Item>Sofeware Engineer</NavDropdown.Item>
+              </Link>
+              <Link to="/">
+                <NavDropdown.Item>Robotics</NavDropdown.Item>
+              </Link>
+            </NavDropdown>
+            <NavDropdown title="Resume">
+              <Link to="/">
+                <NavDropdown.Item>Sofeware Engineer</NavDropdown.Item>
+              </Link>
+              <Link to="/">
+                <NavDropdown.Item>Routesetting</NavDropdown.Item>
+              </Link>
+              <Link to="/">
+                <NavDropdown.Item>Rock Climbing</NavDropdown.Item>
+              </Link>
+            </NavDropdown>
+            <Link to="/">GitHub</Link>
+            <Link to="/">LinkedIn</Link>
+            <Link to="/">Contact</Link>
+          </Nav>
+        </Navbar.Collapse>
       </Navbar>
     );
   }
