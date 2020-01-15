@@ -1,0 +1,16 @@
+.brand {
+  width: 18%;
+}
+
+.nav {
+    font-weight: 500;
+}
+
+.link {
+  color: DodgerBlue !important;
+  text-decoration: underline;
+}
+
+.dropdown-toggle.nav-link {
+    color: white !important;
+}
