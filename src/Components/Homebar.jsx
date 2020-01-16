@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import logo from "../Images/Name_Logo.png";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./css/Homebar.css";
 
 import Image from "react-bootstrap/Image";

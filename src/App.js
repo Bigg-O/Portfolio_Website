@@ -4,41 +4,34 @@ import {
   BrowserRouter as Router,
   Route
 } from "react-router-dom";
-import './App.css';
+import About from './Components/About'
+import './App.css'
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function App() {
   return (
-    <Router>
-      <div className="App">
+    <Jumbotron fluid>
+      <Router>
         <Homebar />
-
         <Route exact path="/">
-          {console.log("main page")}
         </Route>
-        
         <Route exact path="/About">
-          {console.log("about me")}
+          <About />
         </Route>
         <Route exact path="/Software_Portfolio">
-          {console.log("software portolio")}
         </Route>
         <Route exact path="/Robotics_Portfolio">
-          {console.log("robotics portfolio")}
         </Route>
         <Route exact path="/Software_Resume">
-          {console.log("Software_Resume")}
         </Route>
         <Route exact path="/Routesetting_Resume">
-          {console.log("Routesetting_Resume")}
         </Route>
         <Route exact path="/Climbing_Resume">
-          {console.log("Climbing_Resume")}
         </Route>
         <Route exact path="/Contact">
-          {console.log("Contact")}
         </Route>
-      </div>
-    </Router>
+      </Router>
+    </Jumbotron>
   );
 }
 
