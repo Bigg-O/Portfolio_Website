@@ -1,9 +1,13 @@
-html {
+.jumbotron {
+  height: 100vh;
+  width: 100%;
   background-image: url("./Images/Background.jpg");
-  height: 100%;
-  margin: 0;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  left: 0;
 }
 
+.jumbotron.jumbotron-fluid{
+    margin-bottom: 0;
+}
