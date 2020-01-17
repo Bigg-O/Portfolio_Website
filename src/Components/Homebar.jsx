@@ -11,7 +11,7 @@ import Image from "react-bootstrap/Image";
 export class Homebar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect expand="md" variant="dark" fixed="top">
+      <Navbar collapseOnSelect expand="md" variant="dark" fixed="top" >
         <Navbar.Brand className="brand" as={NavLink} to="/">
           <Image src={logo} fluid />
         </Navbar.Brand>
