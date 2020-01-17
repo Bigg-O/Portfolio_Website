@@ -1,0 +1,27 @@
+.profile {
+  width: 90%;
+  margin-bottom: 1%;
+}
+
+.row {
+  margin-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.col-sm-7.card.bg-light.border-dark {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+  padding-top: 1.5%;
+  text-align: center;
+}
+
+h5{
+  text-align: center;
+}
+
+p{
+  text-indent: 1em;
+}

@@ -21,7 +21,7 @@ export class Homebar extends Component {
           <div className="mr-auto"></div>
           <Nav className="nav">
             <Nav.Link className="text-white" as={NavLink} to="/About">
-              About Me
+              About
             </Nav.Link>
 
             <NavDropdown title="Portfolio">
