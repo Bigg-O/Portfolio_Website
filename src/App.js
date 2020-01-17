@@ -7,6 +7,7 @@ import {
 import About from './Components/About'
 import './App.css'
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Software_Resume from './Components/Software_Resume'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route exact path="/About" component={About} />
         <Route exact path="/Software_Portfolio" />
         <Route exact path="/Robotics_Portfolio" />
-        <Route exact path="/Software_Resume" />
+        <Route exact path="/Software_Resume" component={Software_Resume} />
         <Route exact path="/Routesetting_Resume" />
         <Route exact path="/Climbing_Resume" />
         <Route exact path="/Contact" />
