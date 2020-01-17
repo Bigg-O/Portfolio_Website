@@ -18,7 +18,12 @@ export class About extends Component {
             <Image className="profile" src={profile3} />
           </Col>
           <Col as={Card} border="dark" bg="light" sm={7}>
-            <h4>Hi I'm Wookeun Song! 🇲🇽 🇰🇷 🇺🇸</h4>
+            <h4>
+              Hi I'm Wookeun Song!{" "}
+              <span role="img" aria-label="flags">
+                🇲🇽 🇰🇷 🇺🇸
+              </span>
+            </h4>
             <h5>It's pronounced [oo-gen] with hard 'g'</h5>
             <p>
               I am a Full Stack Web Developer with experience in both SQL and
