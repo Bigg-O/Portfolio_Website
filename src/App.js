@@ -10,7 +10,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 function App() {
   return (
-    <Jumbotron fluid>
+    <Jumbotron fluid className="mainJumbo">
       <Router>
         <Homebar />
         <Route exact path="/">
