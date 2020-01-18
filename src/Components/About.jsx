@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
+import profile from "../Images/Profile.jpg";
 import profile2 from "../Images/Profile_2.jpg";
 import profile3 from "../Images/Profile_3.jpg";
+import profile4 from "../Images/Profile_4.jpg";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Row from "react-bootstrap/Row";
@@ -14,8 +16,10 @@ export class About extends Component {
       <Container fluid className="aboutContainer">
         <Row>
           <Col sm={5}>
-            <Image className="profile" src={profile2} />
-            <Image className="profile" src={profile3} />
+            <Image src={profile2} />
+            <Image src={profile3} />
+            <Image src={profile} />
+            <Image src={profile4} />
           </Col>
           <Col as={Card} border="dark" bg="light" sm={7}>
             <h4>
@@ -24,7 +28,12 @@ export class About extends Component {
                 🇲🇽 🇰🇷 🇺🇸
               </span>
             </h4>
-            <h5>It's pronounced [oo-gen] with hard 'g'</h5>
+            <h5>It's pronounced [oo-geun] with hard 'g'</h5>
+            <p>
+              Conceived: México, Born: Korea, Babyhood: México City, Childhood:
+              Korea, Young-Adulthood - Present: Austin, TX
+              <br />
+            </p>
             <p>
               I am a Full Stack Web Developer with experience in both SQL and
               NoSQL databases using Ruby on Rails and MERN (Mongo, Express,
