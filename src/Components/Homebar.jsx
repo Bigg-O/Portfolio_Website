@@ -4,6 +4,9 @@ import logo from "../Images/Name_Logo.png";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
+import SoftwareResume from "../PDF/SoftwareResume.pdf";
+import RoutesettingResume from "../PDF/RoutesettingResume.pdf";
+import ClimbingResume from "../PDF/ClimbingResume.pdf";
 import "./css/Homebar.css";
 
 import Image from "react-bootstrap/Image";
@@ -11,7 +14,7 @@ import Image from "react-bootstrap/Image";
 export class Homebar extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect expand="md" variant="dark" fixed="top" >
+      <Navbar collapseOnSelect expand="md" variant="dark" fixed="top">
         <Navbar.Brand className="brand" as={NavLink} to="/">
           <Image src={logo} fluid />
         </Navbar.Brand>
@@ -34,14 +37,14 @@ export class Homebar extends Component {
             </NavDropdown>
 
             <NavDropdown title="Resume">
-              <NavDropdown.Item as={NavLink} to="/Software_Resume">
-                Sofeware Engineer
+              <NavDropdown.Item href={SoftwareResume}>
+                Software Engineer
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item as={NavLink} to="/Routesetting_Resume">
+              <NavDropdown.Item href={RoutesettingResume}>
                 Routesetting
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/Climbing_Resume">
+              <NavDropdown.Item href={ClimbingResume}>
                 Rock Climbing
               </NavDropdown.Item>
             </NavDropdown>
