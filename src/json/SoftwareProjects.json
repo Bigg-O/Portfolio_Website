@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "name": "DareMe",
+      "photo_url": "",
+      "used_technology": "MongoDB, Express, React, Node, HTML, CSS, Bootstrap",
+      "description": "A social media platform where users dare each other to challenges for profit",
+      "date": "Dec. 2019 - Present",
+      "app_url": "https://dare-me-app.herokuapp.com/",
+      "repository_url": {
+        "backend": "https://github.com/Bigg-O/Crime-Stats_backend",
+        "frontend": "https://github.com/Bigg-O/DareMe_frontend"
+      }
+    },
+    {
+      "name": "Portfolio Website",
+      "photo_url": "",
+      "used_technology": "React, HTML, CSS, Bootstrap",
+      "description": "A portfolio website",
+      "date": "Jan. 2019",
+      "app_url": "https://wookeun-s.com/",
+      "repository_url": "https://github.com/Bigg-O/Portfolio-Website"
+    },
+    {
+      "name": "Candidate Matcher",
+      "photo_url": "",
+      "used_technology": "PostgreSQL, Ruby on Rails, React, HTML, CSS, Bootstrap",
+      "description": "An app to help users find candidates that match their political views on different issues",
+      "date": "Nov. 2019",
+      "app_url": "http://candidate-matcher.herokuapp.com/",
+      "repository_url": {
+        "backend": "https://github.com/a4alaniz/Candidate_Matcher_backend",
+        "frontend": "https://github.com/Bigg-O/Candidate-Matcher_frontend"
+      }
+    },
+    {
+      "name": "Crime Stats",
+      "photo_url": "",
+      "used_technology": "PostgreSQL, Ruby on Rails, JavaScript, HTML, CSS, Bootstrap",
+      "description": "A graphical website that shows detailed crime data of each states from 1979 to present, seperated by crime type.",
+      "date": "Oct. 2019",
+      "app_url": "https://crime-stats-app.herokuapp.com/",
+      "repository_url": "https://github.com/Bigg-O/Crime-Stats"
+    },
+    {
+      "name": "Quicker Picker Upper",
+      "photo_url": "",
+      "used_technology": "Ruby on Rails, HTML, CSS, Bootstrap",
+      "description": "",
+      "date": "Oct. 2019",
+      "repository_url": "https://github.com/Bigg-O/Quicker_Picker_Upper"
+    }
+  ]
+}
