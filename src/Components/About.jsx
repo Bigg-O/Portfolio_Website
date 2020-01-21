@@ -29,12 +29,12 @@ export class About extends Component {
               </span>
             </h4>
             <h5>It's pronounced [oo-geun] with hard 'g'</h5>
-            <p>
+            <p className="aboutMe">
               Conceived: México, Born: Korea, Babyhood: México City, Childhood:
               Korea, Young-Adulthood - Present: Austin, TX
               <br />
             </p>
-            <p>
+            <p className="aboutMe">
               I am a Full Stack Web Developer with experience in both SQL and
               NoSQL databases using Ruby on Rails and MERN (Mongo, Express,
               React, and Node) Stack frameworks. I’ve been a passionate
@@ -51,7 +51,7 @@ export class About extends Component {
               me a strong data structure and low-level computer science
               background.
             </p>
-            <p>
+            <p className="aboutMe">
               As much as I enjoy the world of technology, I love exploring in
               the real world. I’ve gone rock climbing all over the US, Mexico,
               Thailand, and Korea to find the purest and most breath-taking

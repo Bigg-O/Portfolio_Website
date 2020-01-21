@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/card";
 import ListGroup from "react-bootstrap/ListGroup";
-import ListGroupItem from "react-bootstrap/ListGroupItem";
 import "./css/ProjectCard.css";
 
 export class ProjectCard extends Component {
@@ -15,23 +14,21 @@ export class ProjectCard extends Component {
       app_url,
       repository_url
     } = this.props.project;
-    
+
     return (
       <Card>
-        <Card.Header as="h5">{name}</Card.Header>
-        <Card.Img variant="top" src={photo_url} />
-        <Card.Body>
-          <Card.Text>{description}</Card.Text>
-        </Card.Body>
-        <ListGroup className="list-group-flush">
-          <ListGroupItem>Used Techs: </ListGroupItem>
-          <ListGroupItem>Dapibus ac facilisis in</ListGroupItem>
-          <ListGroupItem>Vestibulum at eros</ListGroupItem>
-        </ListGroup>
-        <Card.Body>
-          <Card.Link href="#">Card Link</Card.Link>
+        <Card.Header as="h5">
+          <Card.Link className="header" href={app_url}>
+            {name}
+          </Card.Link>
+        </Card.Header>
+        <Card.Img as={Card.Link} href={app_url} variant="top" src={photo_url} />
+        <Card.Text>{description}</Card.Text>
+        <ListGroup variant="flush">
+          <ListGroup.Item>{used_technology}</ListGroup.Item>
+          <Card.Link href="#"></Card.Link>
           <Card.Link href="#">Another Link</Card.Link>
-        </Card.Body>
+        </ListGroup>
         <Card.Footer>
           <small className="text-muted">{date}</small>
         </Card.Footer>
