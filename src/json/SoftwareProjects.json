@@ -8,7 +8,7 @@
       "date": "Dec. 2019 - Present",
       "app_url": "https://dare-me-app.herokuapp.com/",
       "repository_url": {
-        "backend": "https://github.com/Bigg-O/Crime-Stats_backend",
+        "backend": "https://github.com/Bigg-O/DareMe_backend",
         "frontend": "https://github.com/Bigg-O/DareMe_frontend"
       }
     },
@@ -19,7 +19,9 @@
       "description": "A portfolio website",
       "date": "Jan. 2019",
       "app_url": "https://wookeun-s.com/",
-      "repository_url": "https://github.com/Bigg-O/Portfolio-Website"
+      "repository_url": {
+        "full-repo": "https://github.com/Bigg-O/Portfolio-Website"
+      }
     },
     {
       "name": "Candidate Matcher",
@@ -40,7 +42,9 @@
       "description": "A graphical website that shows detailed crime data of each states from 1979 to present, seperated by crime type.",
       "date": "Oct. 2019",
       "app_url": "https://crime-stats-app.herokuapp.com/",
-      "repository_url": "https://github.com/Bigg-O/Crime-Stats"
+      "repository_url": {
+        "full-repo": "https://github.com/Bigg-O/Crime-Stats"
+      }
     },
     {
       "name": "Quicker Picker Upper",
@@ -48,7 +52,9 @@
       "used_technology": "Ruby on Rails, HTML, CSS, Bootstrap",
       "description": "",
       "date": "Oct. 2019",
-      "repository_url": "https://github.com/Bigg-O/Quicker_Picker_Upper"
+      "repository_url": {
+        "full-repo": "https://github.com/Bigg-O/Quicker_Picker_Upper"
+      }
     }
   ]
 }

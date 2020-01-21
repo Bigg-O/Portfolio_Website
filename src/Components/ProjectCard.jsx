@@ -18,17 +18,33 @@ export class ProjectCard extends Component {
     return (
       <Card>
         <Card.Header as="h5">
-          <Card.Link className="header" href={app_url}>
+          <Card.Link className="header" href={app_url} target="_blank">
             {name}
           </Card.Link>
         </Card.Header>
+
         <Card.Img as={Card.Link} href={app_url} variant="top" src={photo_url} />
-        <Card.Text>{description}</Card.Text>
+
+        <Card.Body>
+          <Card.Text>{description}</Card.Text>
+        </Card.Body>
+
         <ListGroup variant="flush">
           <ListGroup.Item>{used_technology}</ListGroup.Item>
-          <Card.Link href="#"></Card.Link>
-          <Card.Link href="#">Another Link</Card.Link>
         </ListGroup>
+
+        <Card.Body className="link-body">
+          {Object.keys(repository_url).map(repo => (
+            <Card.Link
+              key={repository_url[repo]}
+              href={repository_url[repo]}
+              target="_blank"
+            >
+              {repo}
+            </Card.Link>
+          ))}
+        </Card.Body>
+
         <Card.Footer>
           <small className="text-muted">{date}</small>
         </Card.Footer>

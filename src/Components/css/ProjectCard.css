@@ -1,7 +1,11 @@
 .card-footer {
-    text-align: center;
+  text-align: center;
 }
 
-.header{
-    color: black;
+.header {
+  color: black;
+}
+
+.link-body.card-body {
+  text-align: center;
 }
