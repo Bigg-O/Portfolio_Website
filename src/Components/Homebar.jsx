@@ -37,24 +37,29 @@ export class Homebar extends Component {
             </NavDropdown>
 
             <NavDropdown title="Resume">
-              <NavDropdown.Item href={SoftwareResume}>
+              <NavDropdown.Item href={SoftwareResume} target="_blank">
                 Software Engineer
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href={RoutesettingResume}>
+              <NavDropdown.Item href={RoutesettingResume} target="_blank">
                 Routesetting
               </NavDropdown.Item>
-              <NavDropdown.Item href={ClimbingResume}>
+              <NavDropdown.Item href={ClimbingResume} target="_blank">
                 Rock Climbing
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link className="link" href="https://github.com/Bigg-O">
+            <Nav.Link
+              className="link"
+              href="https://github.com/Bigg-O"
+              target="_blank"
+            >
               GitHub
             </Nav.Link>
             <Nav.Link
               className="link"
               href="https://www.linkedin.com/in/wookeun-s/"
+              target="_blank"
             >
               LinkedIn
             </Nav.Link>
