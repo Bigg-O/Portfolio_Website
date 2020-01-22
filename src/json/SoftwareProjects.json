@@ -14,7 +14,7 @@
     },
     {
       "name": "Portfolio Website",
-      "photo_url": "",
+      "photo_url": "./img/Portfolio-Website.png",
       "used_technology": "React, HTML, CSS, Bootstrap",
       "description": "A portfolio website",
       "date": "Jan. 2019",
@@ -25,7 +25,7 @@
     },
     {
       "name": "Candidate Matcher",
-      "photo_url": "",
+      "photo_url": "./img/Candidate-Matcher.png",
       "used_technology": "PostgreSQL, Ruby on Rails, React, HTML, CSS, Bootstrap",
       "description": "An app to help users find candidates that match their political views on different issues",
       "date": "Nov. 2019",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Crime Stats",
-      "photo_url": "",
+      "photo_url": "./img/Crime-Stats.png",
       "used_technology": "PostgreSQL, Ruby on Rails, JavaScript, HTML, CSS, Bootstrap",
       "description": "A graphical website that shows detailed crime data of each states from 1979 to present, seperated by crime type.",
       "date": "Oct. 2019",

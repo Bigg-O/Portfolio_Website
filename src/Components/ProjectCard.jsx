@@ -7,8 +7,8 @@ export class ProjectCard extends Component {
   render() {
     const {
       name,
-      photo_url,
       used_technology,
+      photo_url,
       description,
       date,
       app_url,
@@ -23,7 +23,9 @@ export class ProjectCard extends Component {
           </Card.Link>
         </Card.Header>
 
-        <Card.Img as={Card.Link} href={app_url} variant="top" src={photo_url} />
+        <Card.Link href={app_url} target="_blank">
+          <Card.Img alt=" " variant="top" src={photo_url} href={app_url} />
+        </Card.Link>
 
         <Card.Body>
           <Card.Text>{description}</Card.Text>

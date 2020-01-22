@@ -9,3 +9,10 @@
 .link-body.card-body {
   text-align: center;
 }
+
+.card-img-top{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
