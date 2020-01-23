@@ -9,7 +9,7 @@ export class ContactModal extends Component {
     return (
       <Modal centered show={modalShow} onHide={onModalHide}>
         <Modal.Header>
-          <Modal.Title>Thanks{" " + userName}</Modal.Title>
+          <Modal.Title>Thx,{" " + userName}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           Your message has been successfully delivered.

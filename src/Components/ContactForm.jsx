@@ -8,7 +8,7 @@ export class ContactForm extends Component {
   render() {
     const { onSubmission } = this.props;
     return (
-      <Form onSubmit={onSubmission}>
+      <Form onSubmit={onSubmission} name="Contact" data-netlify="true">
         <Form.Group as={Row} controlId="formName">
           <Form.Label column md={2}>
             Name:
