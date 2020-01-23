@@ -8,7 +8,7 @@ import About from './Components/About'
 import './App.css'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import SoftwarePortfolio from './Containers/SoftwarePortfolio'
-import Contact from './Components/Contact'
+import Contact from './Containers/Contact'
 
 function App() {
   return (

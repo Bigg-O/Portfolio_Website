@@ -1,0 +1,12 @@
+.modal-content {
+  text-align: center;
+}
+
+.modal-title.h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-body {
+  line-height: 200%;
+}

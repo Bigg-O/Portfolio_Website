@@ -51,6 +51,13 @@ export class Homebar extends Component {
 
             <Nav.Link
               className="link"
+              href="https://www.8a.nu/user/wookeun-song"
+              target="_blank"
+            >
+              8a.nu
+            </Nav.Link>
+            <Nav.Link
+              className="link"
               href="https://github.com/Bigg-O"
               target="_blank"
             >
@@ -63,6 +70,7 @@ export class Homebar extends Component {
             >
               LinkedIn
             </Nav.Link>
+
             <Nav.Link className="text-white" as={NavLink} to="/Contact">
               Contact
             </Nav.Link>
