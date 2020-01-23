@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import ContactModal from "../Components/ContactModal";
 import ContactForm from "../Components/ContactForm";
+import emailjs from "emailjs-com";
 import "./css/Contact.css";
 
 export class Contact extends Component {
@@ -12,48 +13,54 @@ export class Contact extends Component {
     super();
     this.state = {
       userName: "",
-      modalShow: false
+      modalShow: false,
+      failedModalShow: false
     };
   }
 
-  encode = data => {
-    return Object.keys(data)
-      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  };
-
   handleSubmission = e => {
-    fetch("www.wookeun-s.com", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: this.encode({
-        "form-name": "contact",
-        name: e.target.formName.value,
-        email: e.target.formEmail.value,
-        about: e.target.formAbout.value,
-        message: e.target.formText.value
-      })
-    })
-      .then(resp => console.log(resp))
-      .catch(error => console.log(error));
-
     e.preventDefault();
-    this.setState({ userName: e.target.formName.value });
-    this.setState({ modalShow: true });
 
-    //resetting input fields
-    e.target.formName.value = "";
-    e.target.formEmail.value = "";
-    e.target.formAbout.value = "Software Engineering"
-    e.target.formText.value = "";
+    const { formName, formEmail, formAbout, formText } = e.target;
+    const templateParams = {
+      user_name: formName.value,
+      user_email: formEmail.value,
+      user_about: formAbout.value,
+      user_message: formText.value
+    };
+
+    emailjs
+      .send(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        process.env.REACT_APP_EMAILJS_USER_ID
+      )
+      .then(
+        result => {
+          console.log("Success Message from email.js: ", result.text);
+          this.setState({ userName: formName.value });
+          this.setState({ modalShow: true });
+          formName.value = "";
+          formEmail.value = "";
+          formAbout.value = "Software Engineering";
+          formText.value = "";
+        },
+        error => {
+          console.log("Failed Message from email.js: ", error.text);
+          this.setState({ userName: formName.value });
+          this.setState({ failedModalShow: true });
+        }
+      );
   };
 
   handleModalHide = () => {
     this.setState({ modalShow: false });
+    this.setState({ failedModalShow: false });
   };
 
   render() {
-    const { modalShow, userName } = this.state;
+    const { userName, modalShow, failedModalShow } = this.state;
     return (
       <>
         <Container className="form-box">
@@ -78,6 +85,7 @@ export class Contact extends Component {
 
         <ContactModal
           modalShow={modalShow}
+          failedModalShow={failedModalShow}
           onModalHide={this.handleModalHide}
           userName={userName}
         />
