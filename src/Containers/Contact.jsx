@@ -23,17 +23,19 @@ export class Contact extends Component {
   };
 
   handleSubmission = e => {
+    console.log(this.state);
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: this.encode({
         "form-name": "contact",
-        name: e.target.formName.value,
-        email: e.target.formEmail.value,
-        message: e.target.formText.value
+        "name": e.target.formName.value,
+        "email": e.target.formEmail.value,
+        "about": e.target.formAbout.value,
+        "message": e.target.formText.value
       })
     })
-      .then(() => console.log("Submission to Netlify Success!"))
+      .then(resp => console.log(resp))
       .catch(error => console.log(error));
 
     e.preventDefault();
