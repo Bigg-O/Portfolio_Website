@@ -23,7 +23,7 @@ export class Contact extends Component {
   };
 
   handleSubmission = e => {
-    fetch("/", {
+    fetch("/#/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: this.encode({
