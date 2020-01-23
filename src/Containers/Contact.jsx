@@ -23,15 +23,15 @@ export class Contact extends Component {
   };
 
   handleSubmission = e => {
-    fetch("/#/", {
+    fetch("https://www.wookeun-s.com", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: this.encode({
         "form-name": "contact",
-        "name": e.target.formName.value,
-        "email": e.target.formEmail.value,
-        "about": e.target.formAbout.value,
-        "message": e.target.formText.value
+        name: e.target.formName.value,
+        email: e.target.formEmail.value,
+        about: e.target.formAbout.value,
+        message: e.target.formText.value
       })
     })
       .then(resp => console.log(resp))
@@ -44,6 +44,7 @@ export class Contact extends Component {
     //resetting input fields
     e.target.formName.value = "";
     e.target.formEmail.value = "";
+    e.target.formAbout.value = "Software Engineering"
     e.target.formText.value = "";
   };
 
