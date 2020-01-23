@@ -16,9 +16,28 @@ export class Contact extends Component {
     };
   }
 
+  encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+  };
+
   handleSubmission = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: this.encode({
+        "form-name": "contact",
+        name: e.target.formName.value,
+        email: e.target.formEmail.value,
+        message: e.target.formText.value
+      })
+    })
+      .then(() => console.log("Submission to Netlify Success!"))
+      .catch(error => console.log(error));
+
     e.preventDefault();
-    this.setState({userName: e.target.formName.value})
+    this.setState({ userName: e.target.formName.value });
     this.setState({ modalShow: true });
 
     //resetting input fields
