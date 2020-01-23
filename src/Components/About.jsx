@@ -14,7 +14,7 @@ export class About extends Component {
   render() {
     return (
       <Container fluid className="aboutContainer">
-        <Row>
+        <Row className="about-row">
           <Col sm={5}>
             <Image src={profile2} />
             <Image src={profile3} />

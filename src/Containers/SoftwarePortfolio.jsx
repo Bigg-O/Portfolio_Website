@@ -15,7 +15,7 @@ export class SoftwarePortfolio extends Component {
     const { projects } = this.state;
     return (
       <Container fluid>
-        <Row >
+        <Row className="software-row">
           {projects.map(project => (
             <Col md={4} key={project.name}>
               <ProjectCard key={project.name} project={project} />
