@@ -1,3 +1,9 @@
-.col-md-4{
+.col-md-4 {
   margin-bottom: 5%;
+}
+
+.software-row.row {
+  margin-top: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
