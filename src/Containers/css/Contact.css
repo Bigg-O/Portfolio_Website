@@ -1,0 +1,34 @@
+.form-box.container {
+  background-color: rgba(105, 105, 105, 0.9);
+  border-radius: 15px;
+  color: white;
+  font-weight: 500;
+  margin-top: 7%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.info.card {
+  background-color: rgba(105, 105, 105, 0.3);
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 15px;
+}
+
+.card-text {
+  text-align: center;
+  line-height: 150%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.col-md-5{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.button.form-group.row{
+    margin-bottom: 0;
+}

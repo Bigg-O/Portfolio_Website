@@ -3,7 +3,7 @@
 }
 
 .nav {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .link {
@@ -12,9 +12,9 @@
 }
 
 .dropdown-toggle.nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 .navbar.navbar-expand-md.navbar-dark.fixed-top {
-  background: rgba(105,105,105,0.5) ;
+  background: rgba(105, 105, 105, 0.5);
 }
