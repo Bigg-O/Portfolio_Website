@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "DareMe",
-      "photo_url": "",
+      "photo_url": "./img/DareMe.png",
       "used_technology": "MongoDB, Express, React, Node, HTML, CSS, Bootstrap",
       "description": "A social media platform where users dare each other to challenges for profit",
       "date": "Dec. 2019 - Present",
@@ -48,7 +48,7 @@
     },
     {
       "name": "Quicker Picker Upper",
-      "photo_url": "",
+      "photo_url": "./img/QPU.png",
       "used_technology": "Ruby on Rails, HTML, CSS, Bootstrap",
       "description": "",
       "date": "Oct. 2019",

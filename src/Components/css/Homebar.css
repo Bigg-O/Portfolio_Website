@@ -18,3 +18,7 @@
 .navbar.navbar-expand-md.navbar-dark.fixed-top {
   background: rgba(105, 105, 105, 0.5);
 }
+
+.link-icon {
+  width: 10%;
+}
