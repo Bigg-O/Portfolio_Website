@@ -1,4 +1,5 @@
 .card-footer {
+  padding: 1% !important;
   text-align: center;
 }
 
@@ -8,4 +9,26 @@
 
 .link-body.card-body {
   text-align: center;
+  padding: 3%;
+  padding-top: 0;
+}
+
+.card-img-top {
+  margin: 0;
+}
+
+.used {
+  font-weight: 625;
+}
+
+.text-body.card-body {
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.description {
+  font-style: italic;
+  text-indent: 1em;
+  margin: 0;
 }

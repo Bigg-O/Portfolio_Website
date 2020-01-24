@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import SoftwareResume from "../PDF/SoftwareResume.pdf";
 import RoutesettingResume from "../PDF/RoutesettingResume.pdf";
 import ClimbingResume from "../PDF/ClimbingResume.pdf";
+import LinkIcon from "../Images/link_icon.png";
 import "./css/Homebar.css";
 
 import Image from "react-bootstrap/Image";
@@ -38,14 +39,14 @@ export class Homebar extends Component {
 
             <NavDropdown title="Resume">
               <NavDropdown.Item href={SoftwareResume} target="_blank">
-                Software Engineer
+                Software Engineer <Image src={LinkIcon} className="link-icon" />
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href={RoutesettingResume} target="_blank">
-                Routesetting
+                Routesetting <Image src={LinkIcon} className="link-icon" />
               </NavDropdown.Item>
               <NavDropdown.Item href={ClimbingResume} target="_blank">
-                Rock Climbing
+                Rock Climbing <Image src={LinkIcon} className="link-icon" />
               </NavDropdown.Item>
             </NavDropdown>
 

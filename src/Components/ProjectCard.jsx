@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
 import "./css/ProjectCard.css";
 
 export class ProjectCard extends Component {
@@ -27,13 +26,15 @@ export class ProjectCard extends Component {
           <Card.Img alt=" " variant="top" src={photo_url} href={app_url} />
         </Card.Link>
 
-        <Card.Body>
-          <Card.Text>{description}</Card.Text>
+        <Card.Body className="text-body">
+          <p>
+            <span className="used">
+              Used:
+            </span>
+            {" " + used_technology}
+          </p>
+          <p className="description">{description}</p>
         </Card.Body>
-
-        <ListGroup variant="flush">
-          <ListGroup.Item>{used_technology}</ListGroup.Item>
-        </ListGroup>
 
         <Card.Body className="link-body">
           {Object.keys(repository_url).map(repo => (
