@@ -1,0 +1,22 @@
+.robotics-card.card {
+  background-color: rgba(105, 105, 105, 0.9);
+  border-radius: 15px;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+  width: 20rem;
+  top: 45%;
+  left: 10%;
+}
+
+.spinners {
+  text-align: center;
+}
+
+.spinner-border {
+  margin: 0.5%;
+}
+
+.content-box.card-text {
+  padding-top: 3%;
+}

@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import Nav from "react-bootstrap/Nav";
+import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
 import logo from "../Images/Name_Logo.png";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from "react-router-dom";
 import SoftwareResume from "../PDF/SoftwareResume.pdf";
 import RoutesettingResume from "../PDF/RoutesettingResume.pdf";
 import ClimbingResume from "../PDF/ClimbingResume.pdf";
 import LinkIcon from "../Images/link_icon.png";
 import "./css/Homebar.css";
-
-import Image from "react-bootstrap/Image";
 
 export class Homebar extends Component {
   render() {
