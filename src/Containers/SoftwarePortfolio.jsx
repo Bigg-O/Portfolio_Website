@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "./css/SoftwarePortfolio.css";
-import Container from "react-bootstrap/Container";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Components/ProjectCard";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 export class SoftwarePortfolio extends Component {
   constructor() {
