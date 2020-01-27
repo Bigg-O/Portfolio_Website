@@ -6,6 +6,7 @@ import SoftwareResume from "../PDF/SoftwareResume.pdf";
 import RoutesettingResume from "../PDF/RoutesettingResume.pdf";
 import ClimbingResume from "../PDF/ClimbingResume.pdf";
 import LinkIcon from "../Images/link_icon.png";
+import RoboticsPortfolio from '../PDF/Robotics_Portfolio.pdf'
 import "./css/Homebar.css";
 
 export class Homebar extends Component {
@@ -28,8 +29,8 @@ export class Homebar extends Component {
               <NavDropdown.Item as={NavLink} to="/Software_Portfolio">
                 Software Engineer
               </NavDropdown.Item>
-              <NavDropdown.Item as={NavLink} to="/Robotics_Portfolio">
-                Robotics
+              <NavDropdown.Item href={RoboticsPortfolio} target="_blank">
+                Robotics <Image src={LinkIcon} className="link-icon" />
               </NavDropdown.Item>
             </NavDropdown>
 
