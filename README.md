@@ -10,7 +10,7 @@ You can directly go to www.wookeun-s.com to see the deployment
 
 For those who want to use it as their own personal website templete, download following libraries.
 
-#### React.js Email.js React-Bootstrap
+#### React.js, Email.js, React-Bootstrap
 
 
 ## Built With
