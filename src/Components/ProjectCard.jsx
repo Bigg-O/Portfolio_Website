@@ -28,9 +28,7 @@ export class ProjectCard extends Component {
 
         <Card.Body className="text-body">
           <p>
-            <span className="used">
-              Used:
-            </span>
+            <span className="used">Used:</span>
             {" " + used_technology}
           </p>
           <p className="description">{description}</p>

@@ -41,23 +41,31 @@ export class About extends Component {
               giving me considerable experience with solving real life problems
               with code. Due to the programming team’s success that I led at
               competitions in making final rounds consecutively at FRC, it led
-              me to host Nao Robot Fashion Show at Barnes & Noble Robotics Fair
-              giving me an another opportunity to work with different engineers.
-              In order to pursue professional software engineering career, took
-              computer science courses at University of Texas at Austin giving
-              me a strong data structure and low-level computer science
-              background.
+              me to be a leader at Nao Robot Fashion Show at Barnes & Noble
+              Robotics Fair, giving me an opportunity to lead teams of
+              engineers. In order to pursue a professional software engineering
+              career, took computer science courses at the University of Texas
+              at Austin, setting me up with a strong data structure and
+              low-level computer science background. After the course of
+              learning most up to date, web development frameworks, currently
+              building solo projects for fun!
             </p>
             <p className="aboutMe">
-              As much as I enjoy the world of technology, I love exploring in
-              the real world. I’ve gone rock climbing all over the US, Mexico,
-              Thailand, and Korea to find the purest and most breath-taking
-              challenging lines. Instead of just ‘being’ outdoors, I like
+              As much as I enjoy the world of technology, I love exploring the
+              real world. I’ve gone rock climbing all over the US, Mexico,
+              Thailand, and Korea to find the purest and the most breath-taking
+              challenging lines out there. Instead of just ‘being’ outdoors, I’m
               ‘doing’ the outdoors. My passion in climbing took me on a wild
               rocky journey from working at Austin Bouldering Project as a
               routesetter in the biggest bouldering gym in North America, to all
               the way to competing in USA Climbing Collegiate National
               Championships and placing 5th place.
+            </p>
+            <p className="aboutMe">
+              One may say it’s an obsession or others may say it’s a passion. Do
+              I mind what it is? Nopp. I just want to keep doing what's fun and
+              hopefully be that one person who is going to be known for being
+              best at what I do.
             </p>
           </Col>
         </Row>

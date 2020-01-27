@@ -3,8 +3,8 @@
     {
       "name": "DareMe",
       "photo_url": "./img/DareMe.png",
-      "used_technology": "MongoDB, Express, React, Node, HTML, CSS, Bootstrap",
-      "description": "A social media platform where users dare each other to challenges for profit",
+      "used_technology": "MongoDB Atlas, Express.js, React.js, Node.js, JWT, HTML, CSS, Bootstrap",
+      "description": "A social media platform where users dare each other to challenges for profit.",
       "date": "Dec. 2019 - Present",
       "app_url": "https://dare-me-app.herokuapp.com/",
       "repository_url": {
@@ -15,8 +15,8 @@
     {
       "name": "Portfolio Website",
       "photo_url": "./img/Portfolio-Website.png",
-      "used_technology": "React, HTML, CSS, Bootstrap",
-      "description": "A portfolio website",
+      "used_technology": "React.js, Email.js, HTML, CSS, Bootstrap",
+      "description": "Current portfolio website",
       "date": "Jan. 2019",
       "app_url": "https://wookeun-s.com/",
       "repository_url": {
@@ -26,8 +26,8 @@
     {
       "name": "Candidate Matcher",
       "photo_url": "./img/Candidate-Matcher.png",
-      "used_technology": "PostgreSQL, Ruby on Rails, React, HTML, CSS, Bootstrap",
-      "description": "An app to help users find candidates that match their political views on different issues",
+      "used_technology": "PostgreSQL, Ruby on Rails, React.js, Google Civics API, HTML, CSS, Bootstrap",
+      "description": "An app to help users find candidates that match their political views on different issues and find their current reprensentatives by address.",
       "date": "Nov. 2019",
       "app_url": "http://candidate-matcher.herokuapp.com/",
       "repository_url": {
@@ -38,8 +38,8 @@
     {
       "name": "Crime Stats",
       "photo_url": "./img/Crime-Stats.png",
-      "used_technology": "PostgreSQL, Ruby on Rails, JavaScript, HTML, CSS, Bootstrap",
-      "description": "A graphical website that shows detailed crime data of each states from 1979 to present, seperated by crime type.",
+      "used_technology": "PostgreSQL, Ruby on Rails, Vanilla JavaScript, FBI Crime Data API, HTML, CSS, Bootstrap",
+      "description": "A graphical website that shows detailed crime data of each states from 1979 to present, seperated by crime type and compared to national average.",
       "date": "Oct. 2019",
       "app_url": "https://crime-stats-app.herokuapp.com/",
       "repository_url": {
@@ -50,7 +50,7 @@
       "name": "Quicker Picker Upper",
       "photo_url": "./img/QPU.png",
       "used_technology": "Ruby on Rails, HTML, CSS, Bootstrap",
-      "description": "",
+      "description": "A web game that user is on the mission to clean up the messes created by kids. The user has to find the proper tool to clean up the right mess.",
       "date": "Oct. 2019",
       "repository_url": {
         "full-repo": "https://github.com/Bigg-O/Quicker_Picker_Upper"
