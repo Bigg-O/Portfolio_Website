@@ -6,7 +6,7 @@
       "used_technology": "MongoDB Atlas, Express.js, React.js, Node.js, JWT, HTML, CSS, Bootstrap",
       "description": "A social media platform where users dare each other to challenges for profit.",
       "date": "Dec. 2019 - Present",
-      "app_url": "https://dare-me-app.herokuapp.com/",
+      "app_url": "https://dareme.netlify.com",
       "repository_url": {
         "backend": "https://github.com/Bigg-O/DareMe_backend",
         "frontend": "https://github.com/Bigg-O/DareMe_frontend"
