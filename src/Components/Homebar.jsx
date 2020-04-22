@@ -27,7 +27,7 @@ export class Homebar extends Component {
 
             <NavDropdown title="Portfolio">
               <NavDropdown.Item as={NavLink} to="/Software_Portfolio">
-                Software Developer
+                Software Development
               </NavDropdown.Item>
               <NavDropdown.Item href={RoboticsPortfolio} target="_blank">
                 Robotics <Image src={LinkIcon} className="link-icon" />
@@ -36,7 +36,7 @@ export class Homebar extends Component {
 
             <NavDropdown title="Resume">
               <NavDropdown.Item href={SoftwareResume} target="_blank">
-                Software Developer <Image src={LinkIcon} className="link-icon" />
+                Software Development <Image src={LinkIcon} className="link-icon" />
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href={RoutesettingResume} target="_blank">
