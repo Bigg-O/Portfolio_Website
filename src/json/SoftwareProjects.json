@@ -1,11 +1,18 @@
 {
   "projects": [
     {
+      "name": "ONE the blank",
+      "photo_url": "./img/ONE-the-blank.png",
+      "used_technology": "Currently under development implementing features and design requirements from the client",
+      "description": "A unique contemporary fashion brand run on webstore for business-to-consumer shopping",
+      "date": "Apr. 2020 - Present"
+    },
+    {
       "name": "DareMe",
       "photo_url": "./img/DareMe.png",
       "used_technology": "MongoDB Atlas, Express.js, React.js, Node.js, JWT, HTML, CSS, Bootstrap",
       "description": "A social media platform where users dare each other to challenges for profit.",
-      "date": "Dec. 2019 - Present",
+      "date": "Dec. 2019 - Jan. 2020",
       "app_url": "https://dareme.netlify.com",
       "repository_url": {
         "backend": "https://github.com/Bigg-O/DareMe_backend",
