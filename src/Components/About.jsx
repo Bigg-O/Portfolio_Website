@@ -32,22 +32,20 @@ export class About extends Component {
               <br />
             </p>
             <p className="aboutMe">
-              I am a software developer with robotics software engineering and full stack web development experiences. I've used both SQL and
+              I am a software developer with robotics software engineering and full stack web development experiences. Expert in both SQL and
               NoSQL databases using Ruby on Rails and MERN (Mongo, Express,
               React, and Node) Stack frameworks. I’ve been a passionate
               developer since 2013 when I joined a FIRST Robotics Competition
               team. As a lead robotics software/electrical engineer of the team, I learned to code with
               other software engineers and communicate with other types of engineers,
               giving me considerable experience with solving real life problems
-              with code. Due to the programming team’s success that I led at
-              competitions in making final rounds consecutively at FRC, it led
+              on code. Due to the engineering team’s success at competitions in making final rounds consecutively at FRC, it led
               me to be a leader at Nao Robot Fashion Show at Barnes & Noble
               Robotics Fair, giving me an another opportunity to lead teams of
               engineers. In order to pursue a professional software engineering
-              career, took computer science major courses at the University of Texas
+              career, I took computer science major courses at the University of Texas
               at Austin, setting me up with a strong fundamental computer science background. After the course of
-              learning most up to date, web development frameworks, currently
-              building solo projects as a freelance web developer!
+              learning most up to date, web development frameworks, currently working as a freelance web developer!
             </p>
             <p className="aboutMe">
               As much as I enjoy the world of technology, I love exploring the
