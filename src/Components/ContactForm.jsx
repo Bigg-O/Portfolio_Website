@@ -28,7 +28,7 @@ export class ContactForm extends Component {
           </Form.Label>
           <Col md={10}>
             <Form.Control as="select">
-              <option>Software Engineering</option>
+              <option>Software Development</option>
               <option>Routesetting</option>
               <option>Rock Climbing</option>
             </Form.Control>

@@ -65,11 +65,11 @@ export class Contact extends Component {
             <Col md="5">
               <Card className="info">
                 <Card.Text as="h5">
-                  Wookeun Song
+                  Wookeun Oscar Song
                   <br />
                   wookeun.s@gmail.com
                   <br />
-                  (512)-701-0704
+                  (512)701-0704
                 </Card.Text>
               </Card>
             </Col>
