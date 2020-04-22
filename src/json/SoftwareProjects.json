@@ -5,7 +5,8 @@
       "photo_url": "./img/ONE-the-blank.png",
       "used_technology": "Currently under development implementing features and design requirements from the client",
       "description": "A unique contemporary fashion brand run on webstore for business-to-consumer shopping",
-      "date": "Apr. 2020 - Present"
+      "date": "Apr. 2020 - Present",
+      "repository_url": {}
     },
     {
       "name": "DareMe",
