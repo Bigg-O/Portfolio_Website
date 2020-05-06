@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import { Nav, Navbar, NavDropdown, Image } from "react-bootstrap";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Image from "react-bootstrap/Image";
 import logo from "../Images/Name_Logo.png";
 import { NavLink } from "react-router-dom";
 import SoftwareResume from "../PDF/SoftwareResume.pdf";

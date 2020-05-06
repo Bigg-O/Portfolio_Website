@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Modal, Button } from "react-bootstrap";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 import "./css/ContactModal.css";
 
 export class ContactModal extends Component {

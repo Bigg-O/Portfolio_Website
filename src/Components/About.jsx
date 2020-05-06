@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import { Image, Container, Card, Row, Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image"
+import Container from "react-bootstrap/Container"
+import Card from "react-bootstrap/Card"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 import profile from "../Images/Profile.jpg";
 import profile2 from "../Images/Profile_2.jpg";
 import profile3 from "../Images/Profile_3.jpg";
