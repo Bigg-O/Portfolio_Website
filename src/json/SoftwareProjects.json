@@ -1,12 +1,14 @@
 {
   "projects": [
     {
-      "name": "ONE the blank",
-      "photo_url": "./img/ONE-the-blank.png",
+      "name": "Menos",
+      "photo_url": "./img/Menos.jpg",
       "used_technology": "Currently under development implementing features and design requirements from the client",
-      "description": "A unique contemporary fashion brand run on webstore for business-to-consumer shopping",
+      "description": "Webstore for B2B and B2C shopping with secure direct payment system",
       "date": "Apr. 2020 - Present",
-      "repository_url": {}
+      "repository_url": {
+        "frontend": "https://github.com/Bigg-O/Menos_Front-End"
+      }
     },
     {
       "name": "DareMe",
