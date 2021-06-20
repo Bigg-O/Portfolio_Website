@@ -40,25 +40,22 @@ export class About extends Component {
               NoSQL databases using Ruby on Rails and MERN (Mongo, Express,
               React, and Node) Stack frameworks. I’ve been a passionate
               developer since 2013 when I joined a FIRST Robotics Competition
-              team. As a lead robotics software/electrical engineer of the team, I learned to code with
+              team. As a robotics software/electrical engineer, I've learned to code with
               other software engineers and communicate with other types of engineers,
               giving me considerable experience with solving real life problems
-              on code. Due to the engineering team’s success at competitions in making final rounds consecutively at FRC, it led
-              me to be a leader at Nao Robot Fashion Show at Barnes & Noble
-              Robotics Fair, giving me an another opportunity to lead teams of
-              engineers. In order to pursue a professional software engineering
+              on code. In order to pursue a professional software engineering
               career, I took computer science major courses at the University of Texas
               at Austin, setting me up with a strong fundamental computer science background. After the course of
-              learning most up to date, web development frameworks, currently working as a freelance web developer!
+              learning most up to date, web development frameworks, currently working as a software developer!
             </p>
             <p className="aboutMe">
               As much as I enjoy the world of technology, I love exploring the
-              real world. I’ve gone rock climbing all over the world including US, Mexico,
+              real world. I’ve gone on rock climbing trips all over the world including US, Mexico,
               Thailand, and Korea to find the purest and the most breath-taking
               challenging lines out there. Instead of just ‘being’ outdoors, I like to be
               ‘doing’ the outdoors. My passion in climbing took me on a wild
               rocky journey from working at Austin Bouldering Project as a
-              routesetter in the biggest bouldering gym in North America, to all
+              routesetter in the biggest bouldering gym in the North America, to all
               the way to competing in USA Climbing Collegiate National
               Championships and placing 5th place.
             </p>
