@@ -4,7 +4,7 @@ A static website runing on React.js. It contains information about the author in
 
 ## Getting Started
 
-You can directly go to www.wookeun-s.com to see the deployment
+You can directly go to www.wookeun.com to see the deployment
 
 ### Installing
 
