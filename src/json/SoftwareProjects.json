@@ -3,9 +3,10 @@
     {
       "name": "Menos",
       "photo_url": "./img/Menos.jpg",
-      "used_technology": "Currently under development implementing features and design requirements from the client",
+      "used_technology": "Node.js, Express.js, SquareSpace API, Airtable API",
       "description": "Webstore for B2B and B2C shopping with secure direct payment system",
       "date": "Apr. 2020 - Present",
+      "app_url": "https://www.menosshoes.com",
       "repository_url": {
         "frontend": "https://github.com/Bigg-O/Menos_Front-End"
       }
