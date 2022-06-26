@@ -31,22 +31,11 @@ export class About extends Component {
             </h4>
             <h5>It's pronounced [oo-geun] with hard 'g'</h5>
             <p className="aboutMe">
-              Conceived: México, Born: Korea, Babyhood: México City, Childhood:
-              Korea, Young-Adulthood - Present: Austin, TX
+              0-3: México, 4-15: Korea, 15-present: USA
               <br />
             </p>
             <p className="aboutMe">
-              I am a software developer with robotics software engineering and full stack web development experiences. Expert in both SQL and
-              NoSQL databases using Ruby on Rails and MERN (Mongo, Express,
-              React, and Node) Stack frameworks. I’ve been a passionate
-              developer since 2013 when I joined a FIRST Robotics Competition
-              team. As a robotics software/electrical engineer, I've learned to code with
-              other software engineers and communicate with other types of engineers,
-              giving me considerable experience with solving real life problems
-              on code. In order to pursue a professional software engineering
-              career, I took computer science major courses at the University of Texas
-              at Austin, setting me up with a strong fundamental computer science background. After the course of
-              learning most up to date, web development frameworks, currently working as a software developer!
+              I am a software developer with robotics software and full stack web development experience. My specialty is picking up any stacks fast, coming from low level programming experience. I'm versatile in Javascript based stacks such as MERN (Mongo, Express, React, and Node) Stack frameworks on both SQL and NoSQL databases. I’ve been a passionate developer since 2013, as a robotics software/electrical engineer participating in international robotics competitions to creating personal projects, freelancing, full-time works at interesting companies.
             </p>
             <p className="aboutMe">
               As much as I enjoy the world of technology, I love exploring the
