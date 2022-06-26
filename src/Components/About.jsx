@@ -48,12 +48,6 @@ export class About extends Component {
               the way to competing in USA Climbing Collegiate National
               Championships and placing 5th place.
             </p>
-            <p className="aboutMe">
-              One may say it’s an obsession or others may say it’s a passion. Do
-              I mind what it is? Nope. I just want to keep doing what's fun and
-              hopefully be that one person who is going to be known for being
-              the best at what I do.
-            </p>
           </Col>
         </Row>
       </Container>
